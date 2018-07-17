@@ -8,10 +8,10 @@ def removeDuplicateFromString(str)
       counter = false
     end
     newArr.push(arr[0])
-    arr = arr.delete(arr[0])
-    puts arr
+  arr.delete(arr[0])
+  #  puts "arr=#{newArr}"
   end
    return newArr.join('')
  end
 
- removeDuplicateFromString("Googlee")
+ puts removeDuplicateFromString("Googlee")
